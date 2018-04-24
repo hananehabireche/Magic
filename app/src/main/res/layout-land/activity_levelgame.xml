@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+    tools:context="com.hanane.Levelgame">
+<LinearLayout
+    android:layout_width="350dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:ems="2"
+        android:text="@string/choose_level"
+        android:textAlignment="center"
+        android:textSize="22sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="2"
+        android:text="@string/level_easy"
+        android:textAlignment="center"
+        android:textSize="22sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="2"
+        android:text="@string/level_medium"
+        android:textAlignment="center"
+        android:textSize="22sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="2"
+        android:text="@string/level_hard"
+        android:textAlignment="center"
+        android:textSize="22sp" />
+</LinearLayout>
+
+
+<GridLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="2">
+    <EditText
+        android:id="@+id/Leveledittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="60dp"
+        android:ems="2"
+        android:hint="\?"
+        android:inputType="number"
+        android:maxLength="1"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:layout_row="0"/>
+    <Button
+        android:id="@+id/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-70dp"
+        android:text="@string/play"
+        android:layout_marginTop="60dp"
+        android:background="@color/btn_color"
+        android:layout_row="1"
+        />
+</GridLayout>
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MagicSquare</string>
+    <string name="score">Score</string>
+    <string name="Game">Game</string>
+    <string name="exit">Exit</string>
+    <string name="play">Play</string>
+    <string name="about_game">About game</string>
+    <string name="choose_level">Choose a Level</string>
+    <string name="level_easy">1 for Easy</string>
+    <string name="level_medium">2 for Medium</string>
+    <string name="level_hard">3 for Hard</string>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+    <string name="choose_value">Choose value between 1, 2 or 3</string>
+    <string name="rules">Numbers 1 to 9 have to be used ones only ones</string>
+</resources>

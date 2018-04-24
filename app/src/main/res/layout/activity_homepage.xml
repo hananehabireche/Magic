@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.hanane.Homepage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+    <Button
+        android:id="@+id/btn_game"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/btn_color"
+        android:onClick="game"
+        android:layout_marginVertical="@dimen/home_btn_maring_horizental"
+        android:width="@dimen/home_btn_width"
+        android:text="@string/Game"
+        />
+
+
+    <Button
+        android:id="@+id/btn_score"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/btn_color"
+        android:layout_marginVertical="@dimen/home_btn_maring_horizental"
+        android:text="@string/score"
+        />
+
+
+    <Button
+        android:id="@+id/btn_about"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/btn_color"
+        android:onClick="aboutGame"
+        android:layout_marginVertical="@dimen/home_btn_maring_horizental"
+        android:text="@string/about_game"
+         />
+    <Button
+        android:id="@+id/btn_exit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/btn_color"
+        android:layout_marginVertical="@dimen/home_btn_maring_horizental"
+        android:text="@string/exit"
+        />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    tools:context="com.hanane.Score"
+    >
+
+    <GridLayout
+        android:layout_width="180dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="175dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="50dp"
+            android:scrollbars="vertical"
+            android:text="@string/easy"
+            android:textAlignment="center"
+            android:textSize="25dp" />
+
+    </GridLayout>
+
+
+    <GridLayout
+        android:layout_width="180dp"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="175dp"
+        android:layout_height="49dp"
+
+        android:layout_marginTop="50dp"
+        android:scrollbars="vertical"
+        android:text="@string/medium"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+    </GridLayout>
+    <GridLayout
+        android:layout_width="180dp"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="175dp"
+        android:layout_height="49dp"
+
+        android:layout_marginTop="50dp"
+        android:scrollbars="vertical"
+        android:text="@string/hard"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+    </GridLayout>
+</LinearLayout>
